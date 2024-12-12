@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - UTECHTIUM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">UTECHTIUM</div>
+        <nav class="nav">
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('about') }}">About Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to UTECHTIUM</h1>
+            <p>Transforming research into practical, market-ready solutions.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 UTECHTIUM SDN BHD. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - UTECHTIUM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">UTECHTIUM</div>
+        <nav class="nav">
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('about') }}">About Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h1>About Us</h1>
+            <p>Founded in 2016, UTECHTIUM bridges academic innovation with real-world applications. We offer consultancy, training, and program management to transform research into practical solutions. Our mission is to empower local research and innovation to meet global market demands and foster societal progress.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 UTECHTIUM SDN BHD. All rights reserved.</p>
+    </footer>
+</body>
+</html>
